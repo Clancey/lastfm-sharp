@@ -1,0 +1,7 @@
+lastfm-sharp
+------------
+
+lastfm-sharp is a Mono/.Net utility for accessing the Last.fm
+webservices including music scrobbling support.
+
+To compile this lib you'll have to use MonoDevelop.

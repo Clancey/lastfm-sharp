@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{91159A61-20CA-4D95-B704-571997F421BF}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>LastFM</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)HttpEncoder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Lib.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RequestParameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Session.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utilities.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Radio\Station.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Radio\StationURI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Radio\Track.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\AuthenticationFailureException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\BadAuthenticationDetailsException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\BadSessionException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\BannedClientException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\Connection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\Entry.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\NowplayingTrack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\PlaybackSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\Request.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\ScrobbleManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\ScrobbleMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\ScrobblingException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Scrobbling\WrongTimeException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Album.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\AlbumImageSize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\AlbumSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\AlbumWiki.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Artist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ArtistBio.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ArtistSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\AuthenticatedUser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\AuthenticationRequiredException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Base.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Country.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Event.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\EventAttendance.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Gender.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Global.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Group.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\GroupMembers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IHasImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IHasURL.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IHasWeeklyAlbumCharts.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IHasWeeklyArtistCharts.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IHasWeeklyTrackCharts.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\IShareable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ITaggable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ImageSize.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\InvalidPageException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Library.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LibraryAlbum.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LibraryAlbums.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LibraryArtist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LibraryArtists.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LibraryItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LibraryTrack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LibraryTracks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Pages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\PastEvents.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Period.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Playlist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Recipients.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\RecommendedArtists.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\RecommendedEvents.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Request.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ServiceException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\SiteLanguage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Tag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TagCollection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TagSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Tasteometer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TopAlbum.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TopArtist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TopFan.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TopItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TopTag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TopTrack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Track.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TrackSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\TrackWiki.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\User.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Venue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\VenuePastEvents.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\VenueSearch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\WeeklyAlbumChart.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\WeeklyAlbumChartItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\WeeklyArtistChart.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\WeeklyArtistChartItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\WeeklyChart.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\WeeklyChartItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\WeeklyChartTimeSpan.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\WeeklyTrackChart.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\WeeklyTrackChartItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\Wiki.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\XSPF.cs" />
+  </ItemGroup>
+</Project>
