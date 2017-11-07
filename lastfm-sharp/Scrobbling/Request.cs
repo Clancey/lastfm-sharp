@@ -37,7 +37,7 @@ namespace Lastfm.Scrobbling
 		
 		internal string execute()
 		{
-			var client = new HttpClient (new ModernHttpClient.NativeMessageHandler());
+			var client = new HttpClient ();
 			client.DefaultRequestHeaders.AcceptCharset.ParseAdd ("utf-8");
 
 			HttpResponseMessage webresponse;
